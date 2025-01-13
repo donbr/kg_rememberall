@@ -1,0 +1,2293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="qualifications" attr.type="string" />
+  <key id="d5" for="edge" attr.name="throughput" attr.type="string" />
+  <key id="d4" for="edge" attr.name="pubmed_author" attr.type="string" />
+  <key id="d3" for="edge" attr.name="pubmed_id" attr.type="long" />
+  <key id="d2" for="edge" attr.name="interaction_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="synonyms" attr.type="string" />
+  <key id="d0" for="node" attr.name="entrez_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="MTOR">
+      <data key="d0">2475</data>
+      <data key="d1">FRAP|FRAP1|FRAP2|RAFT1|RAPT1</data>
+    </node>
+    <node id="TP53">
+      <data key="d0">7157</data>
+      <data key="d1">BCC7|LFS1|P53|TRP53</data>
+    </node>
+    <node id="KDR">
+      <data key="d0">3791</data>
+      <data key="d1">CD309|FLK1|VEGFR|VEGFR2</data>
+    </node>
+    <node id="EGFR">
+      <data key="d0">1956</data>
+      <data key="d1">ERBB|ERBB1|HER1|NISBD2|PIG61|mENA</data>
+    </node>
+    <node id="CDK4">
+      <data key="d0">1019</data>
+      <data key="d1">CMM3|PSK-J3</data>
+    </node>
+    <node id="GLIS1">
+      <data key="d0">148979</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="CNTRL">
+      <data key="d0">11064</data>
+      <data key="d1">CEP1|CEP110|FAN|bA165P4.1</data>
+    </node>
+    <node id="EFNB2">
+      <data key="d0">1948</data>
+      <data key="d1">EPLG5|HTKL|Htk-L|LERK5</data>
+    </node>
+    <node id="CCDC54">
+      <data key="d0">84692</data>
+      <data key="d1">NYD-SP17|SP17</data>
+    </node>
+    <node id="RGAG4">
+      <data key="d0">340526</data>
+      <data key="d1">6430402L03Rik|MAR5|MART5</data>
+    </node>
+    <node id="PGLYRP4">
+      <data key="d0">57115</data>
+      <data key="d1">PGLYRPIbeta|PGRP-Ibeta|PGRPIB</data>
+    </node>
+    <node id="PSMC3">
+      <data key="d0">5702</data>
+      <data key="d1">TBP1</data>
+    </node>
+    <node id="ZNF207">
+      <data key="d0">7756</data>
+      <data key="d1">BuGZ</data>
+    </node>
+    <node id="GLTSCR1L">
+      <data key="d0">23506</data>
+      <data key="d1">KIAA0240</data>
+    </node>
+    <node id="SLC2A1">
+      <data key="d0">6513</data>
+      <data key="d1">DYT17|DYT18|DYT9|EIG12|GLUT|GLUT-1|GLUT1|GLUT1DS|HTLVR|PED</data>
+    </node>
+    <node id="NFXL1">
+      <data key="d0">152518</data>
+      <data key="d1">CDZFP|HOZFP|OZFP|URCC5</data>
+    </node>
+    <node id="ZNF230">
+      <data key="d0">7773</data>
+      <data key="d1">FDZF2</data>
+    </node>
+    <node id="NABP1">
+      <data key="d0">64859</data>
+      <data key="d1">OBFC2A|SOSS-B2|SSB2</data>
+    </node>
+    <node id="LIMS2">
+      <data key="d0">55679</data>
+      <data key="d1">PINCH-2|PINCH2</data>
+    </node>
+    <node id="BRD7">
+      <data key="d0">29117</data>
+      <data key="d1">BP75|CELTIX1|NAG4</data>
+    </node>
+    <node id="ERBB3">
+      <data key="d0">2065</data>
+      <data key="d1">ErbB-3|HER3|LCCS2|MDA-BF-1|c-erbB-3|c-erbB3|erbB3-S|p180-ErbB3|p45-sErbB3|p85-sErbB3</data>
+    </node>
+    <node id="IKBKG">
+      <data key="d0">8517</data>
+      <data key="d1">AMCBX1|FIP-3|FIP3|Fip3p|IKK-gamma|IMD33|IP|IP1|IP2|IPD2|NEMO|ZC2HC9</data>
+    </node>
+    <node id="ZMAT2">
+      <data key="d0">153527</data>
+      <data key="d1">Ptg-12|Snu23|hSNU23</data>
+    </node>
+    <node id="CNIH3">
+      <data key="d0">149111</data>
+      <data key="d1">CNIH-3</data>
+    </node>
+    <node id="SYT12">
+      <data key="d0">91683</data>
+      <data key="d1">SYT11|sytXII</data>
+    </node>
+    <node id="RPUSD4">
+      <data key="d0">84881</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="THRB">
+      <data key="d0">7068</data>
+      <data key="d1">C-ERBA-2|C-ERBA-BETA|ERBA2|GRTH|NR1A2|PRTH|THR1|THRB1|THRB2</data>
+    </node>
+    <node id="DAOA">
+      <data key="d0">267012</data>
+      <data key="d1">LG72|SG72</data>
+    </node>
+    <node id="CD8A">
+      <data key="d0">925</data>
+      <data key="d1">CD8|Leu2|MAL|p32</data>
+    </node>
+    <node id="PRIMA1">
+      <data key="d0">145270</data>
+      <data key="d1">PRIMA</data>
+    </node>
+    <node id="C11orf68">
+      <data key="d0">83638</data>
+      <data key="d1">BLES03|P5326</data>
+    </node>
+    <node id="SETD4">
+      <data key="d0">54093</data>
+      <data key="d1">C21orf18|C21orf27</data>
+    </node>
+    <node id="NR3C2">
+      <data key="d0">4306</data>
+      <data key="d1">MCR|MLR|MR|NR3C2VIT</data>
+    </node>
+    <node id="ABHD16B">
+      <data key="d0">140701</data>
+      <data key="d1">C20orf135|dJ591C20.1</data>
+    </node>
+    <node id="PCID2">
+      <data key="d0">55795</data>
+      <data key="d1">F10</data>
+    </node>
+    <node id="OR8G2">
+      <data key="d0">26492</data>
+      <data key="d1">HSTPCR120|OR8G2P|OR8G4|ORL206|ORL486|TPCR120</data>
+    </node>
+    <node id="SMARCD3">
+      <data key="d0">6604</data>
+      <data key="d1">BAF60C|CRACD3|Rsc6p</data>
+    </node>
+    <node id="TRNT1">
+      <data key="d0">51095</data>
+      <data key="d1">CCA1|MtCCA|SIFD</data>
+    </node>
+    <node id="C18orf21">
+      <data key="d0">83608</data>
+      <data key="d1">HsT3108|PNAS-131|XTP13</data>
+    </node>
+    <node id="EDC4">
+      <data key="d0">23644</data>
+      <data key="d1">GE1|Ge-1|HEDL5|HEDLS|RCD-8|RCD8</data>
+    </node>
+    <node id="PTCHD3">
+      <data key="d0">374308</data>
+      <data key="d1">PTR</data>
+    </node>
+    <node id="TRPT1">
+      <data key="d0">83707</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="FUT10">
+      <data key="d0">84750</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="CDK9">
+      <data key="d0">1025</data>
+      <data key="d1">C-2k|CDC2L4|CTK1|PITALRE|TAK</data>
+    </node>
+    <node id="SCLY">
+      <data key="d0">51540</data>
+      <data key="d1">SCL|hSCL</data>
+    </node>
+    <node id="WNT4">
+      <data key="d0">54361</data>
+      <data key="d1">SERKAL|WNT-4</data>
+    </node>
+    <node id="UTF1">
+      <data key="d0">8433</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="SYT5">
+      <data key="d0">6861</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="ZNF268">
+      <data key="d0">10795</data>
+      <data key="d1">HZF3</data>
+    </node>
+    <node id="ORC3">
+      <data key="d0">23595</data>
+      <data key="d1">LAT|LATHEO|ORC3L</data>
+    </node>
+    <node id="MAGI3">
+      <data key="d0">260425</data>
+      <data key="d1">MAGI-3|dJ730K3.2</data>
+    </node>
+    <node id="FCRL6">
+      <data key="d0">343413</data>
+      <data key="d1">FcRH6</data>
+    </node>
+    <node id="FAM24A">
+      <data key="d0">118670</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="CAPN7">
+      <data key="d0">23473</data>
+      <data key="d1">CALPAIN7|PALBH</data>
+    </node>
+    <node id="LIN54">
+      <data key="d0">132660</data>
+      <data key="d1">CXCDC1|JC8.6|MIP120</data>
+    </node>
+    <node id="C16orf59">
+      <data key="d0">80178</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="NDUFV3">
+      <data key="d0">4731</data>
+      <data key="d1">CI-10k|CI-9KD</data>
+    </node>
+    <node id="SYN2">
+      <data key="d0">6854</data>
+      <data key="d1">SYNII</data>
+    </node>
+    <node id="GPER1">
+      <data key="d0">2852</data>
+      <data key="d1">CEPR|CMKRL2|DRY12|FEG-1|GPCR-Br|GPER|GPR30|LERGU|LERGU2|LyGPR|mER</data>
+    </node>
+    <node id="CRYGC">
+      <data key="d0">1420</data>
+      <data key="d1">CCL|CRYG3|CTRCT2</data>
+    </node>
+    <node id="ASTL">
+      <data key="d0">431705</data>
+      <data key="d1">SAS1B</data>
+    </node>
+    <node id="USP4">
+      <data key="d0">7375</data>
+      <data key="d1">UNP|Unph</data>
+    </node>
+    <node id="PVRIG">
+      <data key="d0">79037</data>
+      <data key="d1">C7orf15</data>
+    </node>
+    <node id="COL14A1">
+      <data key="d0">7373</data>
+      <data key="d1">UND</data>
+    </node>
+    <node id="ERI3">
+      <data key="d0">79033</data>
+      <data key="d1">PINT1|PRNPIP</data>
+    </node>
+    <node id="KCNA5">
+      <data key="d0">3741</data>
+      <data key="d1">ATFB7|HCK1|HK2|HPCN1|KV1.5|PCN1</data>
+    </node>
+    <node id="POMP">
+      <data key="d0">51371</data>
+      <data key="d1">C13orf12|PNAS-110|UMP1</data>
+    </node>
+    <node id="NKG7">
+      <data key="d0">4818</data>
+      <data key="d1">GIG1|GMP-17|p15-TIA-1</data>
+    </node>
+    <node id="TMEM86A">
+      <data key="d0">144110</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="TRIM3">
+      <data key="d0">10612</data>
+      <data key="d1">BERP|HAC1|RNF22|RNF97</data>
+    </node>
+    <node id="TAS2R60">
+      <data key="d0">338398</data>
+      <data key="d1">T2R56|T2R60</data>
+    </node>
+    <node id="STOML3">
+      <data key="d0">161003</data>
+      <data key="d1">Epb7.2l|SRO</data>
+    </node>
+    <node id="MAD2L2">
+      <data key="d0">10459</data>
+      <data key="d1">MAD2B|POLZ2|REV7</data>
+    </node>
+    <node id="TXNL1">
+      <data key="d0">9352</data>
+      <data key="d1">HEL-S-114|TRP32|TXL-1|TXNL|Txl</data>
+    </node>
+    <node id="TMED1">
+      <data key="d0">11018</data>
+      <data key="d1">IL1RL1LG|Il1rl1l|Tp24</data>
+    </node>
+    <node id="ARL14EPL">
+      <data key="d0">644100</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="CCDC86">
+      <data key="d0">79080</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="GNAS">
+      <data key="d0">2778</data>
+      <data key="d1">AHO|C20orf45|GNAS1|GPSA|GSA|GSP|NESP|PHP1A|PHP1B|PHP1C|POH</data>
+    </node>
+    <node id="FAM47E-STBD1">
+      <data key="d0">100631383</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="LOC554223">
+      <data key="d0">554223</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="FAM174A">
+      <data key="d0">345757</data>
+      <data key="d1">TMEM157|UNQ1912</data>
+    </node>
+    <node id="LRRC15">
+      <data key="d0">131578</data>
+      <data key="d1">LIB</data>
+    </node>
+    <node id="MB21D2">
+      <data key="d0">151963</data>
+      <data key="d1">C3orf59</data>
+    </node>
+    <node id="ATP2C1">
+      <data key="d0">27032</data>
+      <data key="d1">ATP2C1A|BCPM|HHD|PMR1|SPCA1|hSPCA1</data>
+    </node>
+    <node id="OTULIN">
+      <data key="d0">90268</data>
+      <data key="d1">FAM105B|GUM</data>
+    </node>
+    <node id="KRT5">
+      <data key="d0">3852</data>
+      <data key="d1">CK5|DDD|DDD1|EBS2|K5|KRT5A</data>
+    </node>
+    <node id="KDM1A">
+      <data key="d0">23028</data>
+      <data key="d1">AOF2|BHC110|KDM1|LSD1</data>
+    </node>
+    <node id="PUM2">
+      <data key="d0">23369</data>
+      <data key="d1">PUMH2|PUML2</data>
+    </node>
+    <node id="ZNF79">
+      <data key="d0">7633</data>
+      <data key="d1">pT7</data>
+    </node>
+    <node id="AKR1A1">
+      <data key="d0">10327</data>
+      <data key="d1">ALDR1|ALR|ARM|DD3|HEL-S-6</data>
+    </node>
+    <node id="GNPNAT1">
+      <data key="d0">64841</data>
+      <data key="d1">GNPNAT|Gpnat1</data>
+    </node>
+    <node id="LRRC27">
+      <data key="d0">80313</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="FUBP3">
+      <data key="d0">8939</data>
+      <data key="d1">FBP3</data>
+    </node>
+    <node id="GATAD2B">
+      <data key="d0">57459</data>
+      <data key="d1">MRD18|P66beta|p68</data>
+    </node>
+    <node id="TBC1D21">
+      <data key="d0">161514</data>
+      <data key="d1">MgcRabGAP</data>
+    </node>
+    <node id="OR2L5">
+      <data key="d0">81466</data>
+      <data key="d1">OR2L11|OR2L5P</data>
+    </node>
+    <node id="CHRFAM7A">
+      <data key="d0">89832</data>
+      <data key="d1">CHRNA7|CHRNA7-DR1|D-10</data>
+    </node>
+    <node id="TAMM41">
+      <data key="d0">132001</data>
+      <data key="d1">C3orf31|RAM41|TAM41</data>
+    </node>
+    <node id="TMEM116">
+      <data key="d0">89894</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="TRAM1L1">
+      <data key="d0">133022</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="NTSR2">
+      <data key="d0">23620</data>
+      <data key="d1">NTR2</data>
+    </node>
+    <node id="WDR83">
+      <data key="d0">84292</data>
+      <data key="d1">MORG1</data>
+    </node>
+    <node id="URB2">
+      <data key="d0">9816</data>
+      <data key="d1">KIAA0133|NET10|NPA2</data>
+    </node>
+    <node id="TGIF2">
+      <data key="d0">60436</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="NFKBIA">
+      <data key="d0">4792</data>
+      <data key="d1">IKBA|MAD-3|NFKBI</data>
+    </node>
+    <node id="ZCCHC18">
+      <data key="d0">644353</data>
+      <data key="d1">PNMA7B|SIZN2</data>
+    </node>
+    <node id="LOH12CR1">
+      <data key="d0">118426</data>
+      <data key="d1">LOH1CR12</data>
+    </node>
+    <node id="RAPSN">
+      <data key="d0">5913</data>
+      <data key="d1">RAPSYN|RNF205</data>
+    </node>
+    <node id="OGN">
+      <data key="d0">4969</data>
+      <data key="d1">OG|OIF|SLRR3A</data>
+    </node>
+    <node id="CADM4">
+      <data key="d0">199731</data>
+      <data key="d1">IGSF4C|NECL4|Necl-4|TSLL2|synCAM4</data>
+    </node>
+    <node id="PRY2">
+      <data key="d0">442862</data>
+      <data key="d1">PTPN13LY2</data>
+    </node>
+    <node id="NKAIN4">
+      <data key="d0">128414</data>
+      <data key="d1">C20orf58|FAM77A|bA261N11.2</data>
+    </node>
+    <node id="TMCO2">
+      <data key="d0">127391</data>
+      <data key="d1">dJ39G22.2</data>
+    </node>
+    <node id="OR51M1">
+      <data key="d0">390059</data>
+      <data key="d1">HOR5Beta7|OR11-40</data>
+    </node>
+    <node id="RIMBP2">
+      <data key="d0">23504</data>
+      <data key="d1">PPP1R133|RBP2|RIM-BP2</data>
+    </node>
+    <node id="SSX5">
+      <data key="d0">6758</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="GATA2">
+      <data key="d0">2624</data>
+      <data key="d1">DCML|IMD21|MONOMAC|NFE1B</data>
+    </node>
+    <node id="PRR11">
+      <data key="d0">55771</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="SLFN5">
+      <data key="d0">162394</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="DYRK2">
+      <data key="d0">8445</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="KMT2D">
+      <data key="d0">8085</data>
+      <data key="d1">AAD10|ALR|CAGL114|KABUK1|KMS|MLL2|MLL4|TNRC21</data>
+    </node>
+    <node id="DCAF10">
+      <data key="d0">79269</data>
+      <data key="d1">WDR32</data>
+    </node>
+    <node id="GLRA1">
+      <data key="d0">2741</data>
+      <data key="d1">HKPX1|STHE</data>
+    </node>
+    <node id="SLC38A10">
+      <data key="d0">124565</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="BDKRB1">
+      <data key="d0">623</data>
+      <data key="d1">B1BKR|B1R|BDKRB2|BKB1R|BKR1|BRADYB1</data>
+    </node>
+    <node id="TRIP12">
+      <data key="d0">9320</data>
+      <data key="d1">TRIP-12|ULF</data>
+    </node>
+    <node id="POLR2C">
+      <data key="d0">5432</data>
+      <data key="d1">RPB3|RPB31|hRPB33|hsRPB3</data>
+    </node>
+    <node id="HAGH">
+      <data key="d0">3029</data>
+      <data key="d1">GLO2|GLX2|GLXII|HAGH1</data>
+    </node>
+    <node id="LGR6">
+      <data key="d0">59352</data>
+      <data key="d1">GPCR|VTS20631</data>
+    </node>
+    <node id="RCC1">
+      <data key="d0">1104</data>
+      <data key="d1">CHC1|RCC1-I|SNHG3-RCC1</data>
+    </node>
+    <node id="SPATA31A1">
+      <data key="d0">647060</data>
+      <data key="d1">C9orf36|C9orf36A|FAM75A1|FAM75A2|SPATA31A2</data>
+    </node>
+    <node id="CSN3">
+      <data key="d0">1448</data>
+      <data key="d1">CSN10|CSNK|KCA</data>
+    </node>
+    <node id="TRIM42">
+      <data key="d0">287015</data>
+      <data key="d1">PPP1R40</data>
+    </node>
+    <node id="TAF1C">
+      <data key="d0">9013</data>
+      <data key="d1">MGC:39976|SL1|TAFI110|TAFI95</data>
+    </node>
+    <node id="PCGF1">
+      <data key="d0">84759</data>
+      <data key="d1">2010002K04Rik|NSPC1|RNF3A-2|RNF68</data>
+    </node>
+    <node id="ATN1">
+      <data key="d0">1822</data>
+      <data key="d1">B37|D12S755E|DRPLA|HRS|NOD</data>
+    </node>
+    <node id="SLC25A34">
+      <data key="d0">284723</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="POGLUT1">
+      <data key="d0">56983</data>
+      <data key="d1">C3orf9|CLP46|KDELCL1|KTELC1|MDSRP|Rumi|hCLP46</data>
+    </node>
+    <node id="MPP1">
+      <data key="d0">4354</data>
+      <data key="d1">AAG12|DXS552E|EMP55|MRG1|PEMP</data>
+    </node>
+    <node id="HMX1">
+      <data key="d0">3166</data>
+      <data key="d1">H6|NKX5-3</data>
+    </node>
+    <node id="SST">
+      <data key="d0">6750</data>
+      <data key="d1">SMST</data>
+    </node>
+    <node id="RIT1">
+      <data key="d0">6016</data>
+      <data key="d1">NS8|RIBB|RIT|ROC1</data>
+    </node>
+    <node id="KLHL15">
+      <data key="d0">80311</data>
+      <data key="d1">HEL-S-305</data>
+    </node>
+    <node id="LIN7C">
+      <data key="d0">55327</data>
+      <data key="d1">LIN-7-C|LIN-7C|MALS-3|MALS3|VELI3</data>
+    </node>
+    <node id="CNBP">
+      <data key="d0">7555</data>
+      <data key="d1">CNBP1|DM2|PROMM|RNF163|ZCCHC22|ZNF9</data>
+    </node>
+    <node id="B4GALT7">
+      <data key="d0">11285</data>
+      <data key="d1">EDSP1|XGALT1|XGPT1</data>
+    </node>
+    <node id="NSMF">
+      <data key="d0">26012</data>
+      <data key="d1">HH9|NELF</data>
+    </node>
+    <node id="IGF2BP1">
+      <data key="d0">10642</data>
+      <data key="d1">CRD-BP|CRDBP|IMP-1|IMP1|VICKZ1|ZBP1</data>
+    </node>
+    <node id="KIAA0907">
+      <data key="d0">22889</data>
+      <data key="d1">BLOM7</data>
+    </node>
+    <node id="OPRD1">
+      <data key="d0">4985</data>
+      <data key="d1">OPRD</data>
+    </node>
+    <node id="STX18">
+      <data key="d0">53407</data>
+      <data key="d1">Ufe1</data>
+    </node>
+    <node id="UNC13D">
+      <data key="d0">201294</data>
+      <data key="d1">FHL3|HLH3|HPLH3|Munc13-4</data>
+    </node>
+    <node id="CAB39">
+      <data key="d0">51719</data>
+      <data key="d1">MO25</data>
+    </node>
+    <node id="CNKSR2">
+      <data key="d0">22866</data>
+      <data key="d1">CNK2|KSR2|MAGUIN</data>
+    </node>
+    <node id="TADA1">
+      <data key="d0">117143</data>
+      <data key="d1">ADA1|HFI1|STAF42|TADA1L|hADA1</data>
+    </node>
+    <node id="WRAP53">
+      <data key="d0">55135</data>
+      <data key="d1">DKCB3|TCAB1|WDR79</data>
+    </node>
+    <node id="RPRD1B">
+      <data key="d0">58490</data>
+      <data key="d1">C20orf77|CREPT|NET60|dJ1057B20.2</data>
+    </node>
+    <node id="BPTF">
+      <data key="d0">2186</data>
+      <data key="d1">FAC1|FALZ|NURF301</data>
+    </node>
+    <node id="TYMS">
+      <data key="d0">7298</data>
+      <data key="d1">HST422|TMS|TS</data>
+    </node>
+    <node id="UROS">
+      <data key="d0">7390</data>
+      <data key="d1">UROIIIS</data>
+    </node>
+    <node id="GYPC">
+      <data key="d0">2995</data>
+      <data key="d1">CD236|CD236R|GE|GPC|GPD|GYPD|PAS-2|PAS-2</data>
+    </node>
+    <node id="PRO1596">
+      <data key="d0">29013</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="CD69">
+      <data key="d0">969</data>
+      <data key="d1">AIM|BL-AC/P26|CLEC2C|EA1|GP32/28|MLR-3</data>
+    </node>
+    <node id="PDXP">
+      <data key="d0">57026</data>
+      <data key="d1">CIN|PLP|dJ37E16.5</data>
+    </node>
+    <node id="THADA">
+      <data key="d0">63892</data>
+      <data key="d1">GITA</data>
+    </node>
+    <node id="KCNJ10">
+      <data key="d0">3766</data>
+      <data key="d1">BIRK-10|KCNJ13-PEN|KIR1.2|KIR4.1|SESAME</data>
+    </node>
+    <node id="ABCA12">
+      <data key="d0">26154</data>
+      <data key="d1">ARCI4A|ARCI4B|ICR2B|LI2</data>
+    </node>
+    <node id="UBA6">
+      <data key="d0">55236</data>
+      <data key="d1">E1-L2|MOP-4|UBE1L2</data>
+    </node>
+    <node id="CDC7">
+      <data key="d0">8317</data>
+      <data key="d1">CDC7L1|HsCDC7|Hsk1|huCDC7</data>
+    </node>
+    <node id="ID1">
+      <data key="d0">3397</data>
+      <data key="d1">ID|bHLHb24</data>
+    </node>
+    <node id="CTBS">
+      <data key="d0">1486</data>
+      <data key="d1">CTB</data>
+    </node>
+    <node id="EIF2B3">
+      <data key="d0">8891</data>
+      <data key="d1">EIF-2B|EIF2Bgamma</data>
+    </node>
+    <node id="UFM1">
+      <data key="d0">51569</data>
+      <data key="d1">BM-002|C13orf20</data>
+    </node>
+    <node id="PTCD1">
+      <data key="d0">26024</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="TPCN2">
+      <data key="d0">219931</data>
+      <data key="d1">SHEP10|TPC2</data>
+    </node>
+    <node id="NEURL1">
+      <data key="d0">9148</data>
+      <data key="d1">NEUR1|NEURL|RNF67|bA416N2.1|neu|neu-1</data>
+    </node>
+    <node id="STEAP4">
+      <data key="d0">79689</data>
+      <data key="d1">STAMP2|TIARP|TNFAIP9</data>
+    </node>
+    <node id="C19orf40">
+      <data key="d0">91442</data>
+      <data key="d1">FAAP24</data>
+    </node>
+    <node id="C19orf38">
+      <data key="d0">255809</data>
+      <data key="d1">HIDE1</data>
+    </node>
+    <node id="C14orf37">
+      <data key="d0">145407</data>
+      <data key="d1">c14_5376</data>
+    </node>
+    <node id="NIM1K">
+      <data key="d0">167359</data>
+      <data key="d1">NIM1</data>
+    </node>
+    <node id="GP6">
+      <data key="d0">51206</data>
+      <data key="d1">BDPLT11|GPIV|GPVI</data>
+    </node>
+    <node id="BCL2L14">
+      <data key="d0">79370</data>
+      <data key="d1">BCLG</data>
+    </node>
+    <node id="HILS1">
+      <data key="d0">373861</data>
+      <data key="d1">H1.9</data>
+    </node>
+    <node id="CLDND2">
+      <data key="d0">125875</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="UMOD">
+      <data key="d0">7369</data>
+      <data key="d1">ADMCKD2|FJHN|HNFJ|HNFJ1|MCKD2|THGP|THP</data>
+    </node>
+    <node id="RHAG">
+      <data key="d0">6005</data>
+      <data key="d1">CD241|RH2|RH50A|Rh50|Rh50GP|SLC42A1</data>
+    </node>
+    <node id="GFPT2">
+      <data key="d0">9945</data>
+      <data key="d1">GFAT2</data>
+    </node>
+    <node id="SATL1">
+      <data key="d0">340562</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="RTN4IP1">
+      <data key="d0">84816</data>
+      <data key="d1">NIMP</data>
+    </node>
+    <node id="DOK7">
+      <data key="d0">285489</data>
+      <data key="d1">C4orf25|CMS1B</data>
+    </node>
+    <node id="NUP98">
+      <data key="d0">4928</data>
+      <data key="d1">ADIR2|NUP196|NUP96</data>
+    </node>
+    <node id="PWWP2A">
+      <data key="d0">114825</data>
+      <data key="d1">MST101</data>
+    </node>
+    <node id="MEP1A">
+      <data key="d0">4224</data>
+      <data key="d1">PPHA</data>
+    </node>
+    <node id="CCT6B">
+      <data key="d0">10693</data>
+      <data key="d1">CCT-zeta-2|CCTZ-2|Cctz2|TCP-1-zeta-2|TSA303</data>
+    </node>
+    <node id="ZNF300">
+      <data key="d0">91975</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="DEFB125">
+      <data key="d0">245938</data>
+      <data key="d1">DEFB-25</data>
+    </node>
+    <node id="GJA5">
+      <data key="d0">2702</data>
+      <data key="d1">ATFB11|CX40</data>
+    </node>
+    <node id="EFNA4">
+      <data key="d0">1945</data>
+      <data key="d1">EFL4|EPLG4|LERK4</data>
+    </node>
+    <node id="NMNAT1">
+      <data key="d0">64802</data>
+      <data key="d1">LCA9|NMNAT|PNAT1</data>
+    </node>
+    <node id="KLHL10">
+      <data key="d0">317719</data>
+      <data key="d1">SPGF11</data>
+    </node>
+    <node id="LMLN">
+      <data key="d0">89782</data>
+      <data key="d1">GP63|INV|IX14|MSP</data>
+    </node>
+    <node id="FBXO22">
+      <data key="d0">26263</data>
+      <data key="d1">FBX22|FISTC1</data>
+    </node>
+    <node id="ITGB7">
+      <data key="d0">3695</data>
+      <data key="d1">-</data>
+    </node>
+    <node id="CPN1">
+      <data key="d0">1369</data>
+      <data key="d1">CPN|SCPN</data>
+    </node>
+    <node id="COLQ">
+      <data key="d0">8292</data>
+      <data key="d1">EAD</data>
+    </node>
+    <node id="AP3B2">
+      <data key="d0">8120</data>
+      <data key="d1">NAPTB</data>
+    </node>
+    <node id="ANXA11">
+      <data key="d0">311</data>
+      <data key="d1">ANX11|CAP50</data>
+    </node>
+    <edge source="MTOR" target="TP53">
+      <data key="d2">2327799</data>
+      <data key="d3">27438146</data>
+      <data key="d4">Ye H (2016)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">drug sensitivity</data>
+    </edge>
+    <edge source="TP53" target="KDR">
+      <data key="d2">2327800</data>
+      <data key="d3">27438146</data>
+      <data key="d4">Ye H (2016)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">drug sensitivity</data>
+    </edge>
+    <edge source="TP53" target="EGFR">
+      <data key="d2">2327801</data>
+      <data key="d3">27438146</data>
+      <data key="d4">Ye H (2016)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">drug sensitivity</data>
+    </edge>
+    <edge source="TP53" target="CDK4">
+      <data key="d2">2861945</data>
+      <data key="d3">30762338</data>
+      <data key="d4">Guo Y (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:NCM460 cells|Experimental Setup: Cytokine Exposure (TGFB1)|GIST: A-phenotypic negative genetic interaction|Library: Targeted Library|Significance Threshold: dGI &lt; -0.84</data>
+    </edge>
+    <edge source="TP53" target="GLIS1">
+      <data key="d2">2872129</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CNTRL">
+      <data key="d2">2872130</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="EFNB2">
+      <data key="d2">2872131</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CCDC54">
+      <data key="d2">2872132</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="RGAG4">
+      <data key="d2">2872133</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PGLYRP4">
+      <data key="d2">2872134</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PSMC3">
+      <data key="d2">2872135</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ZNF207">
+      <data key="d2">2872136</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GLTSCR1L">
+      <data key="d2">2872137</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SLC2A1">
+      <data key="d2">2872138</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NFXL1">
+      <data key="d2">2872139</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ZNF230">
+      <data key="d2">2872140</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NABP1">
+      <data key="d2">2872141</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LIMS2">
+      <data key="d2">2872142</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="BRD7">
+      <data key="d2">2872143</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ERBB3">
+      <data key="d2">2872144</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="IKBKG">
+      <data key="d2">2872145</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ZMAT2">
+      <data key="d2">2872146</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CNIH3">
+      <data key="d2">2872147</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SYT12">
+      <data key="d2">2872148</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="RPUSD4">
+      <data key="d2">2872149</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="THRB">
+      <data key="d2">2872150</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="DAOA">
+      <data key="d2">2872151</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CD8A">
+      <data key="d2">2872152</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PRIMA1">
+      <data key="d2">2872153</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="C11orf68">
+      <data key="d2">2872154</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SETD4">
+      <data key="d2">2872155</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NR3C2">
+      <data key="d2">2872156</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ABHD16B">
+      <data key="d2">2872157</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PCID2">
+      <data key="d2">2872158</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="OR8G2">
+      <data key="d2">2872159</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SMARCD3">
+      <data key="d2">2872160</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TRNT1">
+      <data key="d2">2872161</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="C18orf21">
+      <data key="d2">2872162</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="EDC4">
+      <data key="d2">2872163</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PTCHD3">
+      <data key="d2">2872164</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TRPT1">
+      <data key="d2">2872165</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="FUT10">
+      <data key="d2">2872166</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CDK9">
+      <data key="d2">2872167</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SCLY">
+      <data key="d2">2872168</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="WNT4">
+      <data key="d2">2872169</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="UTF1">
+      <data key="d2">2872170</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SYT5">
+      <data key="d2">2872171</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ZNF268">
+      <data key="d2">2872172</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ORC3">
+      <data key="d2">2872173</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="MAGI3">
+      <data key="d2">2872174</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="FCRL6">
+      <data key="d2">2872175</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="FAM24A">
+      <data key="d2">2872176</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CAPN7">
+      <data key="d2">2872177</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LIN54">
+      <data key="d2">2872178</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="C16orf59">
+      <data key="d2">2872179</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NDUFV3">
+      <data key="d2">2872180</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SYN2">
+      <data key="d2">2872181</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GPER1">
+      <data key="d2">2872182</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CRYGC">
+      <data key="d2">2872183</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ASTL">
+      <data key="d2">2872184</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="USP4">
+      <data key="d2">2872185</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PVRIG">
+      <data key="d2">2872186</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="COL14A1">
+      <data key="d2">2872187</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ERI3">
+      <data key="d2">2872188</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="KCNA5">
+      <data key="d2">2872189</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="POMP">
+      <data key="d2">2872190</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NKG7">
+      <data key="d2">2872191</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TMEM86A">
+      <data key="d2">2872192</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TRIM3">
+      <data key="d2">2872193</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TAS2R60">
+      <data key="d2">2872194</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="STOML3">
+      <data key="d2">2872195</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="MAD2L2">
+      <data key="d2">2872196</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TXNL1">
+      <data key="d2">2872197</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TMED1">
+      <data key="d2">2872198</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ARL14EPL">
+      <data key="d2">2872199</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CCDC86">
+      <data key="d2">2872200</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GNAS">
+      <data key="d2">2872201</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="FAM47E-STBD1">
+      <data key="d2">2872202</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LOC554223">
+      <data key="d2">2872203</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="FAM174A">
+      <data key="d2">2872204</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LRRC15">
+      <data key="d2">2872205</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="MB21D2">
+      <data key="d2">2872206</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ATP2C1">
+      <data key="d2">2872207</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="OTULIN">
+      <data key="d2">2872208</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="KRT5">
+      <data key="d2">2872209</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="KDM1A">
+      <data key="d2">2872210</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PUM2">
+      <data key="d2">2872211</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ZNF79">
+      <data key="d2">2872212</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="AKR1A1">
+      <data key="d2">2872213</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GNPNAT1">
+      <data key="d2">2872214</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LRRC27">
+      <data key="d2">2872215</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="FUBP3">
+      <data key="d2">2872216</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GATAD2B">
+      <data key="d2">2872217</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TBC1D21">
+      <data key="d2">2872218</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="OR2L5">
+      <data key="d2">2872219</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CHRFAM7A">
+      <data key="d2">2872220</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TAMM41">
+      <data key="d2">2872221</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TMEM116">
+      <data key="d2">2872222</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TRAM1L1">
+      <data key="d2">2872223</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NTSR2">
+      <data key="d2">2872224</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="WDR83">
+      <data key="d2">2872225</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="URB2">
+      <data key="d2">2872226</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TGIF2">
+      <data key="d2">2872227</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NFKBIA">
+      <data key="d2">2872228</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ZCCHC18">
+      <data key="d2">2872229</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LOH12CR1">
+      <data key="d2">2872230</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="RAPSN">
+      <data key="d2">2872231</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="OGN">
+      <data key="d2">2872232</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CADM4">
+      <data key="d2">2872233</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PRY2">
+      <data key="d2">2872234</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="NKAIN4">
+      <data key="d2">2872235</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TMCO2">
+      <data key="d2">2872236</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="OR51M1">
+      <data key="d2">2872237</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="RIMBP2">
+      <data key="d2">2872238</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SSX5">
+      <data key="d2">2872239</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GATA2">
+      <data key="d2">2872240</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PRR11">
+      <data key="d2">2872241</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SLFN5">
+      <data key="d2">2872242</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="DYRK2">
+      <data key="d2">2872243</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="KMT2D">
+      <data key="d2">2872244</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="DCAF10">
+      <data key="d2">2872245</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="GLRA1">
+      <data key="d2">2872246</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SLC38A10">
+      <data key="d2">2872247</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="BDKRB1">
+      <data key="d2">2872248</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TRIP12">
+      <data key="d2">2872249</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="POLR2C">
+      <data key="d2">2872250</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="HAGH">
+      <data key="d2">2872251</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="LGR6">
+      <data key="d2">2872252</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="RCC1">
+      <data key="d2">2872253</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SPATA31A1">
+      <data key="d2">2872254</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="CSN3">
+      <data key="d2">2872255</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TRIM42">
+      <data key="d2">2872256</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="TAF1C">
+      <data key="d2">2872257</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="PCGF1">
+      <data key="d2">2872258</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="ATN1">
+      <data key="d2">2872259</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SLC25A34">
+      <data key="d2">2872260</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="POGLUT1">
+      <data key="d2">2872261</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="MPP1">
+      <data key="d2">2872262</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="HMX1">
+      <data key="d2">2872263</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="SST">
+      <data key="d2">2872264</data>
+      <data key="d3">30862715</data>
+      <data key="d4">Liu C (2019)</data>
+      <data key="d5">Low Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:  hESC|Experimental Setup: Drug Exposure: Cisplatin CHEBI:27899|GIST: Mono-phenotypic suppressing genetic interaction|KO of hit genes re-sensitizes TP53 KO cells to cisplatin|Library: GeckoV2|Significance Threshold: p&lt;0.01</data>
+    </edge>
+    <edge source="TP53" target="RIT1">
+      <data key="d2">3344765</data>
+      <data key="d3">34373451</data>
+      <data key="d4">Vichas A (2021)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line: PC9-Cas9-RIT1M90I|Experimental Setup: Negative selection in the presence of 40 nM erlotinib|GIST: A-phenotypic negative genetic interaction|Library: Brunello Library|Significance Threshold:|CS|&gt;0.5 and p&lt;0.05</data>
+    </edge>
+    <edge source="TP53" target="KLHL15">
+      <data key="d2">3410901</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="LIN7C">
+      <data key="d2">3410902</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="CNBP">
+      <data key="d2">3410903</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="B4GALT7">
+      <data key="d2">3410904</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="NSMF">
+      <data key="d2">3410905</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="IGF2BP1">
+      <data key="d2">3410906</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="KIAA0907">
+      <data key="d2">3410907</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="OPRD1">
+      <data key="d2">3410908</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="STX18">
+      <data key="d2">3410909</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)|Significance Threshold: BAGEL (QBF_X_TSG KO&gt;5, QBF_X_WT_Average&lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&gt;5, where X is any gene from TKOv3 library) and DrugZ (P&lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="UNC13D">
+      <data key="d2">3411369</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="CAB39">
+      <data key="d2">3411370</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="CNKSR2">
+      <data key="d2">3411371</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="TADA1">
+      <data key="d2">3411372</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="WRAP53">
+      <data key="d2">3411373</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="RPRD1B">
+      <data key="d2">3411374</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="BPTF">
+      <data key="d2">3411375</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="TYMS">
+      <data key="d2">3411376</data>
+      <data key="d3">35559673</data>
+      <data key="d4">Feng X (2022)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">CRISPR GI screen|Cell Line:HEK-293A|Experimental Setup: Timecourse|GIST: A-phenotypic negative genetic interaction|Library: TKO v3 (ADDGENE:90294)|Significance Threshold: BAGEL (QBF_X_TSG KO&amp;gt;5, QBF_X_WT_Average&amp;lt;3, and QBF_X_TSG KO - QBF_X_WT_Max&amp;gt;5, where X is any gene from TKOv3 library) and DrugZ (P&amp;lt;0.01)</data>
+    </edge>
+    <edge source="TP53" target="UROS">
+      <data key="d2">3477135</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="GYPC">
+      <data key="d2">3477136</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="PRO1596">
+      <data key="d2">3477137</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="CD69">
+      <data key="d2">3477138</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="PDXP">
+      <data key="d2">3477139</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="THADA">
+      <data key="d2">3477140</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="KCNJ10">
+      <data key="d2">3477141</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="ABCA12">
+      <data key="d2">3477142</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="UBA6">
+      <data key="d2">3477143</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="CDC7">
+      <data key="d2">3477144</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="ID1">
+      <data key="d2">3477145</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">Low Throughput|High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="CTBS">
+      <data key="d2">3477146</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="EIF2B3">
+      <data key="d2">3477147</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="UFM1">
+      <data key="d2">3477148</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="PTCD1">
+      <data key="d2">3477149</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="TPCN2">
+      <data key="d2">3477150</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="NEURL1">
+      <data key="d2">3477151</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="STEAP4">
+      <data key="d2">3477152</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="C19orf40">
+      <data key="d2">3477153</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="C19orf38">
+      <data key="d2">3477154</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="C14orf37">
+      <data key="d2">3477155</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="NIM1K">
+      <data key="d2">3477156</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="GP6">
+      <data key="d2">3477157</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="BCL2L14">
+      <data key="d2">3477158</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="HILS1">
+      <data key="d2">3477159</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="CLDND2">
+      <data key="d2">3477160</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="UMOD">
+      <data key="d2">3477161</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="RHAG">
+      <data key="d2">3477162</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="GFPT2">
+      <data key="d2">3477163</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="SATL1">
+      <data key="d2">3477164</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="RTN4IP1">
+      <data key="d2">3477165</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="DOK7">
+      <data key="d2">3477166</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="NUP98">
+      <data key="d2">3477167</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="PWWP2A">
+      <data key="d2">3477168</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="MEP1A">
+      <data key="d2">3477169</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="CCT6B">
+      <data key="d2">3477170</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="ZNF300">
+      <data key="d2">3477171</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="DEFB125">
+      <data key="d2">3477172</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="GJA5">
+      <data key="d2">3477173</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="EFNA4">
+      <data key="d2">3477174</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="NMNAT1">
+      <data key="d2">3477175</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="KLHL10">
+      <data key="d2">3477176</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="LMLN">
+      <data key="d2">3477177</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="FBXO22">
+      <data key="d2">3477178</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="ITGB7">
+      <data key="d2">3477179</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="CPN1">
+      <data key="d2">3477180</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="COLQ">
+      <data key="d2">3477181</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="AP3B2">
+      <data key="d2">3477182</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+    <edge source="TP53" target="ANXA11">
+      <data key="d2">3477183</data>
+      <data key="d3">24378760</data>
+      <data key="d4">Imai H (2014)</data>
+      <data key="d5">High Throughput</data>
+      <data key="d6">-</data>
+    </edge>
+  </graph>
+</graphml>
