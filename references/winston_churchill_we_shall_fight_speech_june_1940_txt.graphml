@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;ADVERSE WEATHER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Adverse weather conditions were a challenge faced by the Royal Navy and air forces while conducting the evacuation at Dunkirk."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;AEROPLANES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Aeroplanes refer to the aircraft used in military operations, particularly the Hurricane, Spitfire, and Defiant, highlighting their importance in aerial combat."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;GENERAL WEYGAND&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"General Weygand assumed command of the French forces after General Gamelin, playing a key role in the military strategies employed in Belgium."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;BRITISH EXPEDITIONARY FORCE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The British Expeditionary Force refers to the military force that has returned to defend the island, indicating a state of readiness for potential conflict."&lt;SEP&gt;"The British Expeditionary Force was a military formation of the British Army that played a significant role in early battles of the First World War and is noted for its effectiveness despite facing challenges."&lt;SEP&gt;"The British Expeditionary Force was a military formation that played a critical role in the defense against the German forces during the campaign in Belgium."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d&lt;SEP&gt;chunk-58115f97dbdca0a27d5683dc5f9cb80d&lt;SEP&gt;chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;ARMORED VEHICLES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Armored Vehicles are military transport vehicles that played a significant role in ground operations during the war, with substantial losses reported in battle."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;GENERAL GAMELIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"General Gamelin was the initial commander of French forces before General Weygand took over, involved in the early strategic decisions."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;LORD GORT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lord Gort is the gallant Commander-in-Chief of the British Expeditionary Force, tasked with reconstituting the military strength to defend against invasion."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;COLOSSAL AND SHATTERING POWER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Colossal and Shattering Power refers to the overwhelming military capabilities associated with modern warfare, which the young airmen wield in their defense efforts."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;CALAIS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Calais was a significant location for intense fighting, where Allied forces attempted to maintain control against the German advance."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;NAZI GERMANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Nazi Germany is the antagonist in this context, representing the imperial threat that has led to increased military measures."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;YOUTH&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Youth represents the young airmen and soldiers who are actively engaged in warfare, embodying hope and sacrifice during a critical time in history."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;BOULOGNE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Boulogne served as a site of desperate fighting, showcasing the challenges faced by the defending forces during the invasion."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;PARLIAMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Parliament is the legislative body that grants powers to address security measures and oversees military decisions."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;CIVILIZATION&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Civilization refers to the societal structures and values that are perceived to be at stake in the face of military conflict and aggression."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;SECOND WORLD WAR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Second World War was the broader context in which these military operations took place, influencing strategies and actions of the involved forces."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;HIS MAJESTY'S GOVERNMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"His Majesty's Government is the ruling authority responsible for the nation's defense and military organization during the war."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;ARMIES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Armies are organized military forces, and in this context refer to the various national forces involved in the conflict, showcasing their struggles and efforts in battles."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;GERMAN ARMY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The German Army conducted the invasion into Belgium, employing tactical maneuvers such as armored divisions and mechanized forces to overwhelm Allied defenses."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;WORLD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"World represents a collective entity or organization with power and resources, taking action towards rescue and liberation."</data>
+  <data key="d2">chunk-f9126779827abdbf5affe221ebf37868</data>
+</node>
+<node id="&quot;THE BRITISH EMPIRE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The British Empire refers to the collective territories and nations under British rule, promoting unity in defense against tyranny."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;LOSSES&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Losses are the casualties and setbacks experienced during military engagements, highlighting the impact of war on personnel and equipment."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;ROYAL AIR FORCE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Royal Air Force is a distinguished military air service of the United Kingdom, known for its bravery and operational capabilities during the war efforts, including engagement in aerial combat."&lt;SEP&gt;"The Royal Air Force provided aerial support during the evacuation, engaging the German Air Force to protect British and French forces."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b&lt;SEP&gt;chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;ARMIES OF THE NORTH&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Armies of the north referred to the collective French and British forces working together to defend against the German invasion in Belgium."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;FRENCH REPUBLIC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French Republic is allied with the British Empire, indicating international cooperation against a common enemy."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;FIERCE BATTLES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Fierce Battles refer to intense military engagements that occur on multiple fronts during the war, characterized by high stakes and significant challenges."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;BRITISH ARMY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The British Army played a crucial role during the evacuation and faced the German forces in a defensive capacity."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;QUEEN VICTORIA’S RIFLES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Queen Victoria’s Rifles were part of the British forces that defended Calais, showcasing the diverse makeup of the military during the conflict."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;FIFTH COLUMN&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Fifth Column refers to subversive groups or individuals that may undermine national security, particularly in times of war."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;30,000 MEN&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"30,000 Men signifies the reported figures for casualties during military operations, stressing the human cost of the conflict."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;MIGHT&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Might signifies the strength and resources of the World organization, emphasizing its capability to undertake significant actions such as rescue and liberation."</data>
+  <data key="d2">chunk-f9126779827abdbf5affe221ebf37868</data>
+</node>
+<node id="&quot;60TH RIFLES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The 60th Rifles were involved in the defense of Calais against German forces, illustrating the bravery of the Allied troops."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;INVASION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Invasion refers to the potential military aggression threatening the island, necessitating heightened defense measures."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;MILITARY STRENGTH&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Military Strength refers to the overall capability and readiness of a country's armed forces to engage in warfare and respond to threats."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;ROYAL NAVY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Royal Navy coordinated the evacuation of troops, engaging numerous vessels to rescue stranded soldiers."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;RIFLE BRIGADE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Rifle Brigade was another unit that participated in the defense of Calais, engaged in intense street fighting against the Germans."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;THE ISLAND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The Island refers to the geographical location being defended, presumably Britain, which is central to the discussion of home defense against invasion."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;LIBERATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Liberation denotes the act of setting someone free from imprisonment, oppression, or danger, which is a goal of the World organization."</data>
+  <data key="d2">chunk-f9126779827abdbf5affe221ebf37868</data>
+</node>
+<node id="&quot;AMIENS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Amiens was a key strategic location for the Allies, serving as a communications hub during military operations."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;THE WAR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The War refers to the ongoing conflict that has heightened the urgency for military readiness and defense strategies."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;ABBEVILLE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Abbeville was significant for the movement of supplies and communication lines for the retreating forces."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;GERMAN COMMAND&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"German Command coordinated the attacks that pressured the Allied forces during their evacuation."&lt;SEP&gt;"The German Command orchestrated the invasion and strategized the military actions against the Allied forces in Belgium."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d&lt;SEP&gt;chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;FRENCH ARMY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French Army cooperated with the British Army during the evacuation from Dunkirk."&lt;SEP&gt;"The French Army is a large military organization representing France, which has faced significant difficulties during the conflict, leading to a weakening of its capabilities."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b&lt;SEP&gt;chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;ENEMY ALIENS&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Enemy Aliens refer to individuals or groups from nations considered hostile, facing scrutiny and potential action during the time of war."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;OPERATION DUNKIRK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Operation Dunkirk refers to the evacuation effort of British and French troops from Dunkirk, under severe enemy pressure."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;DUNKIRK EVACUATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Dunkirk evacuation symbolized a desperate but ultimately successful effort to rescue British and Allied forces from advancing German troops."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;NAZI RULE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Nazi rule pertains to the oppressive governance and control exerted by the Nazis in occupied territories, creating fear and necessity for vigilance."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;KING LEOPOLD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"King Leopold was the ruler of Belgium who called upon the Allies for assistance and played a crucial role in the events surrounding the invasion."&lt;SEP&gt;"King Leopold's decisions are described as condemning the Belgian Army to surrender, impacting the situation for Allied forces."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d&lt;SEP&gt;chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;GRAVELINE WATER LINES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The Graveline water lines were strategically flooded to hinder German advances and were held by French troops during the conflict."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;SEA POWER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Sea power reflects the naval capabilities and advantages that Britain possesses as a means of defense against invasion."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;ENEMY AIR FORCE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Enemy Air Force refers to the German air capabilities that targeted Allied troops and evacuation efforts."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;BRITISH BRIGADIER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The British Brigadier commanded the forces in Calais and made the decision to refuse surrender during the German assault."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;POWER&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Power refers to the ability or capacity of the World organization to influence, affect change, and take action for rescue and liberation."</data>
+  <data key="d2">chunk-f9126779827abdbf5affe221ebf37868</data>
+</node>
+<node id="&quot;AIR POWER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Air power relates to the ability to control the skies during warfare, crucial for defense against aerial attacks and invasions."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;DUNKIRK BEACHES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Dunkirk beaches were the critical evacuation point where Allied soldiers were rescued during Operation Dunkirk."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;ARMED CONFLICT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The armed conflict represents the series of military engagements between the Allied forces and the German Army during the invasion of Belgium."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;RESCUE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rescue refers to the action taken by the World organization to provide help or save individuals from danger or distress."</data>
+  <data key="d2">chunk-f9126779827abdbf5affe221ebf37868</data>
+</node>
+<node id="&quot;THE GESTAPO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Gestapo refers to the secret police of Nazi Germany, known for its brutal measures and repression of dissent."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;DUNKIRK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Dunkirk is a coastal town in France that served as the primary evacuation point for Allied troops during World War II."&lt;SEP&gt;"Dunkirk was a critical port and location for the Allies during their retreat, representing both a hope and a challenge during the conflict."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d&lt;SEP&gt;chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;BELGIAN GOVERNMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Belgian Government sought to maintain the country's neutrality during the conflict but ultimately called for foreign assistance when invaded."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;ENEMY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Enemy refers to any opposing military force that poses a threat, particularly during the context of the war."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;NAZI BOMBS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Nazi bombs were used by German forces to attack Allied positions, particularly targeting evacuation ships and areas."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;HITLER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Adolf Hitler was the leader of Nazi Germany during World War II, known for his plans of expansion and invasion, which posed significant threats to the British Isles."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;THE BEACHES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The beaches refer to the coastal areas where defensive efforts may be focused to fend off invasion."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;GERMAN AEROPLANES&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"German aeroplanes played a significant role in the air offensives against Allied forces during the evacuation from Dunkirk."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;SIR ANDREW DUNCAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sir Andrew Duncan was a notable figure and member of the House whose personal loss during the war highlights the impact of military casualties on families."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;BELGIAN ARMY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Belgian Army is the military force of Belgium, which suffered severe losses and was largely defeated in the current conflict."&lt;SEP&gt;"The Belgian Army was involved in a significant surrender, which affected the strategic situation for the British and French forces."&lt;SEP&gt;"The Belgian Army, consisting of over 20 divisions, fought valiantly to defend Belgium during the German invasion, showing bravery and resilience."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d&lt;SEP&gt;chunk-0c20fd61b0a579b00fc4ccc63a7b164b&lt;SEP&gt;chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;THE FIELDS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The fields indicate open areas that may also require defense against enemy forces during invasions."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;HURRICANE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Hurricane is a British fighter aircraft used by the Royal Air Force in defense against the German Air Force during the evacuation."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;CHANNEL PORTS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The Channel Ports refer to strategic locations in the UK that have significant military and logistical importance during wartime efforts."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;THE STREETS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The streets refer to urban areas where fighting could take place during an invasion, highlighting the threat to civilian areas."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;SPITFIRE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Spitfire is another crucial British fighter aircraft that contributed significantly to the Royal Air Force's efforts during the Dunkirk evacuation."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;MARCH 21, 1918&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"March 21, 1918, is significant as a date marking a major offensive during World War I, which resulted in substantial casualties and losses for the Allied forces."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;THE HILLS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The hills refer to elevated terrains that could be strategically important in the defense of the island."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;DEFIANT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"The Defiant is a British aircraft also utilized by the Royal Air Force to engage enemy fighters during the evacuation."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;INVASION OF BRITISH ISLES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Invasion of the British Isles refers to a planned military operation considered by Hitler, representing a direct threat to the UK during the war."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;THE NEW WORLD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The New World signifies territories beyond the Atlantic, particularly the Americas, which may play a role in future support in the conflict."</data>
+  <data key="d2">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</node>
+<node id="&quot;NAVAL SHIPS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Naval ships included various types of vessels used by the Royal Navy to carry out the evacuation of Allied troops."</data>
+  <data key="d2">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</node>
+<node id="&quot;HOME DEFENSE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"Home Defense encompasses strategies and military preparations aimed at protecting the British Isles from invasion during the war."</data>
+  <data key="d2">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</node>
+<node id="&quot;FRENCH HIGH COMMAND&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The French High Command was responsible for the strategic decisions during the military operations at Sedan and Meuse, aiming to maintain control over the French and British Armies."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;BELGIAN KING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The Belgian King called upon the British and French Armies for assistance during the invasion, emphasizing his role in coordinating defense efforts."</data>
+  <data key="d2">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</node>
+<node id="&quot;RESCUE AND LIBERATION EVENT&quot;">
+  <data key="d2">chunk-f9126779827abdbf5affe221ebf37868</data>
+  <data key="d1">"World is actively involved in the action of rescue and liberation, indicating its role in significant humanitarian efforts."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;ADVERSE WEATHER&quot;" target="&quot;ROYAL NAVY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Adverse weather affected the operations of the Royal Navy, complicating evacuation efforts at Dunkirk."</data>
+  <data key="d5">"operational challenge, evacaution"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;AEROPLANES&quot;" target="&quot;ROYAL AIR FORCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Royal Air Force operates Aeroplanes, which are critical for aerial dominance and defense strategies during military conflicts."</data>
+  <data key="d5">"military operations, aerial defense"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;GENERAL WEYGAND&quot;" target="&quot;GENERAL GAMELIN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"General Weygand succeeded General Gamelin in command, indicating a change in leadership during a critical period of military strategy."</data>
+  <data key="d5">"leadership transition, military strategy"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;FRENCH HIGH COMMAND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The French High Command coordinated with the British Expeditionary Force in their mutual efforts to resist the German advance in Belgium."</data>
+  <data key="d5">"military coordination, alliance"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;BELGIAN ARMY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Belgian Army collaborated with the British Expeditionary Force in defending against the German advance, demonstrating allied efforts in the war."</data>
+  <data key="d5">"alliance, mutual defense"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;ROYAL AIR FORCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Royal Air Force provided aerial support for the British Expeditionary Force during military operations, enhancing collective defense efforts."</data>
+  <data key="d5">"military support, collaboration"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;DUNKIRK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dunkirk was the focal point for the British Expeditionary Force's efforts during the retreat, representing a vital line of approach to escape the German forces."</data>
+  <data key="d5">"strategic retreat, critical location"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;INVASION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The British Expeditionary Force is being reconstituted in preparation for a potential invasion, highlighting its role in national defense."</data>
+  <data key="d5">"defense, military readiness"</data>
+  <data key="d6">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;LORD GORT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lord Gort leads the British Expeditionary Force, responsible for its strategic military operations and readiness."</data>
+  <data key="d5">"leadership, military command"</data>
+  <data key="d6">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;CALAIS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Calais was a key battleground for the British Expeditionary Force, showcasing their attempts to maintain control and resist German advances."</data>
+  <data key="d5">"defense, conflict"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;ARMORED VEHICLES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The British Expeditionary Force utilized Armored Vehicles for enhanced mobility and protection during battles, reflecting military tactics."</data>
+  <data key="d5">"tactical use, military transportation"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;BELGIAN KING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Belgian King appealed for the assistance of the British Expeditionary Force during the invasion, indicating a collaborative effort to defend Belgium."</data>
+  <data key="d5">"alliance, defense effort"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;SIR ANDREW DUNCAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Sir Andrew Duncan's personal loss reflects the broader impact of casualties on the families of those serving in the British Expeditionary Force."</data>
+  <data key="d5">"personal loss, military impact"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;BRITISH EXPEDITIONARY FORCE&quot;" target="&quot;BOULOGNE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Boulogne was another critical location that the British Expeditionary Force defended against German attacks."</data>
+  <data key="d5">"defense, military challenge"</data>
+  <data key="d6">chunk-58115f97dbdca0a27d5683dc5f9cb80d</data>
+</edge>
+<edge source="&quot;NAZI GERMANY&quot;" target="&quot;INVASION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nazi Germany is the aggressor likely to initiate the invasion, creating the urgent need for defensive measures."</data>
+  <data key="d5">"threat, aggression"</data>
+  <data key="d6">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</edge>
+<edge source="&quot;NAZI GERMANY&quot;" target="&quot;FIFTH COLUMN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Fifth Column activities may be influenced by Nazi Germany's tactics to undermine national security from within."</data>
+  <data key="d5">"subversion, internal threat"</data>
+  <data key="d6">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</edge>
+<edge source="&quot;YOUTH&quot;" target="&quot;ROYAL AIR FORCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The young airmen of the Royal Air Force symbolize the vigor and bravery of Youth in the face of overwhelming challenges in warfare."</data>
+  <data key="d5">"bravery, youth empowerment"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;PARLIAMENT&quot;" target="&quot;HIS MAJESTY'S GOVERNMENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Parliament oversees and supports the actions of His Majesty's Government in addressing security measures during the war."</data>
+  <data key="d5">"legislative support, governance"</data>
+  <data key="d6">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</edge>
+<edge source="&quot;CIVILIZATION&quot;" target="&quot;LOSSES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The concept of Civilization is at risk due to the significant Losses incurred during the conflict, linking societal stability to military success."</data>
+  <data key="d5">"societal impact, military consequences"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;ARMIES&quot;" target="&quot;FIERCE BATTLES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The term Fierce Battles describes the engagements involving multiple Armies, indicating their ongoing struggle against one another."</data>
+  <data key="d5">"military conflict, engagement"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;WORLD&quot;" target="&quot;RESCUE AND LIBERATION EVENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"World is actively involved in the action of rescue and liberation, indicating its role in significant humanitarian efforts."</data>
+  <data key="d5">"action, humanitarian effort"</data>
+  <data key="d6">chunk-f9126779827abdbf5affe221ebf37868</data>
+</edge>
+<edge source="&quot;WORLD&quot;" target="&quot;POWER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"World utilizes its Power to enact rescue and liberation efforts, highlighting the connection between its capabilities and actions."</data>
+  <data key="d5">"influence, resource mobilization"</data>
+  <data key="d6">chunk-f9126779827abdbf5affe221ebf37868</data>
+</edge>
+<edge source="&quot;WORLD&quot;" target="&quot;MIGHT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Might of the World organization underlines its capacity to carry out rescue and liberation operations."</data>
+  <data key="d5">"strength, action capability"</data>
+  <data key="d6">chunk-f9126779827abdbf5affe221ebf37868</data>
+</edge>
+<edge source="&quot;THE BRITISH EMPIRE&quot;" target="&quot;FRENCH REPUBLIC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both the British Empire and French Republic are united in defending their territories against the threats posed by Nazi Germany."</data>
+  <data key="d5">"alliance, mutual defense"</data>
+  <data key="d6">chunk-9f935138bbda0a55a8bc4c4f9dedfe8d</data>
+</edge>
+<edge source="&quot;LOSSES&quot;" target="&quot;30,000 MEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The figure of 30,000 Men represents a part of the overall Losses faced by the military, emphasizing the grave human cost of warfare."</data>
+  <data key="d5">"casualty figure, human cost"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;DEFIANT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Defiant was employed by the Royal Air Force to assist in air defense during the evacuation at Dunkirk."</data>
+  <data key="d5">"defense, military aircraft"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;HOME DEFENSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Royal Air Force is a key component in strategies for Home Defense against potential invasions, highlighting its critical role in national security."</data>
+  <data key="d5">"national security, military defense"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;GERMAN AEROPLANES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"German aeroplanes engaged in combat with the Royal Air Force during the evacuation, affecting aerial dynamics."</data>
+  <data key="d5">"air combat, military engagement"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;ENEMY AIR FORCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Enemy Air Force and Royal Air Force were in direct conflict during the evacuation, influencing air support outcomes."</data>
+  <data key="d5">"air combat, conflict"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;HURRICANE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Hurricane was deployed by the Royal Air Force to protect evacuation efforts and engage enemy aircraft."</data>
+  <data key="d5">"defense, military aircraft"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;OPERATION DUNKIRK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Royal Air Force played a key role in supporting Operation Dunkirk by engaging enemy aircraft during the evacuation."</data>
+  <data key="d5">"critical support, military operation"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;SPITFIRE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Spitfire was another key aircraft used by the Royal Air Force in their defense during the Dunkirk evacuation."</data>
+  <data key="d5">"defense, military aircraft"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL AIR FORCE&quot;" target="&quot;GERMAN COMMAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Royal Air Force engaged the German Command's air operations to protect the evacuation efforts."</data>
+  <data key="d5">"air superiority, defense"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;BRITISH ARMY&quot;" target="&quot;GERMAN COMMAND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The German Command launched attacks on the British Army during the evacuation, influencing the battle dynamics."</data>
+  <data key="d5">"battle dynamics, enemy confrontation"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;BRITISH ARMY&quot;" target="&quot;BELGIAN ARMY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The surrender of the Belgian Army necessitated the British Army to cover their retreat to the coast."</data>
+  <data key="d5">"military strategy, surrender impact"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;BRITISH ARMY&quot;" target="&quot;FRENCH ARMY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The British Army and French Army fought together to defend against the German offensive during the evacuation."</data>
+  <data key="d5">"military cooperation, allied forces"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;BRITISH ARMY&quot;" target="&quot;ROYAL NAVY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Royal Navy facilitated the safe evacuation of the British Army from Dunkirk, under threat from enemy forces."</data>
+  <data key="d5">"evacuation, support"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;BRITISH ARMY&quot;" target="&quot;OPERATION DUNKIRK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The British Army was directly involved in Operation Dunkirk, with their evacuation being the primary objective of the mission."</data>
+  <data key="d5">"military strategic operation, evacuation"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;MILITARY STRENGTH&quot;" target="&quot;HOME DEFENSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Military Strength is crucial in the context of Home Defense strategies, ensuring readiness against potential invasions."</data>
+  <data key="d5">"defense strategies, military readiness"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;ROYAL NAVY&quot;" target="&quot;NAVAL SHIPS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Naval ships were integral to the operations of the Royal Navy during the evacuation from Dunkirk."</data>
+  <data key="d5">"military operations, naval support"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL NAVY&quot;" target="&quot;NAZI BOMBS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nazi bombs targeted the Royal Navy's evacuation efforts, presenting significant threats to naval operations."</data>
+  <data key="d5">"threat, military conflict"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;ROYAL NAVY&quot;" target="&quot;FRENCH ARMY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Royal Navy was involved in evacuating French troops along with British troops from Dunkirk."</data>
+  <data key="d5">"evacuation, allied support"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;LIBERATION&quot;" target="&quot;RESCUE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Rescue and Liberation are interconnected events driven by the World organization's actions towards humanitarian causes."</data>
+  <data key="d5">"humanitarian actions, interconnected events"</data>
+  <data key="d6">chunk-f9126779827abdbf5affe221ebf37868</data>
+</edge>
+<edge source="&quot;FRENCH ARMY&quot;" target="&quot;MARCH 21, 1918&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The events of March 21, 1918, directly impacted the French Army's strength and morale during the conflict."</data>
+  <data key="d5">"historical impact, military losses"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;FRENCH ARMY&quot;" target="&quot;BELGIAN ARMY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both the French and Belgian Armies faced coordinated attacks from enemy forces, resulting in significant casualties and disruptions."</data>
+  <data key="d5">"military challenges, collaboration"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;OPERATION DUNKIRK&quot;" target="&quot;DUNKIRK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dunkirk serves as the geographical location for Operation Dunkirk, making it central to the evacuation efforts."</data>
+  <data key="d5">"evacuation location, military operation"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;KING LEOPOLD&quot;" target="&quot;BELGIAN ARMY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"King Leopold's actions directly led to the surrender of the Belgian Army, affecting the Allied strategic position."</data>
+  <data key="d5">"leadership impact, military defeat"</data>
+  <data key="d6">chunk-054c21e2319b76975eb963edf5e8a68c</data>
+</edge>
+<edge source="&quot;HITLER&quot;" target="&quot;INVASION OF BRITISH ISLES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Hitler's plans for invading the British Isles posed a direct threat to the country's security and military readiness."</data>
+  <data key="d5">"military threat, invasion plans"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+<edge source="&quot;CHANNEL PORTS&quot;" target="&quot;INVASION OF BRITISH ISLES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Control of the Channel Ports is crucial for any invading force aiming to secure the British Isles, linking strategic military positioning."</data>
+  <data key="d5">"strategic importance, military operations"</data>
+  <data key="d6">chunk-0c20fd61b0a579b00fc4ccc63a7b164b</data>
+</edge>
+</graph></graphml>

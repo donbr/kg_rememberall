@@ -4,9 +4,7 @@
 
 ### Data Ingestion
 
-NOTE:  mermaid.js diagrams below are based on those from the [Connected Data London 2024: Entity Resolved Knowledge Graphs](https://github.com/donbr/cdl2024_masterclass/blob/main/README.md) masterclass.
-
-A single architecture diagram can *never* capture `everything` for all stakeholders - I would check out some of Paco's `GraphGeeks` and `Graph Power Hour` discussions where he touches on some of these themes.
+NOTE:  mermaid.js diagrams below are based on some inspiring content from the [Connected Data London 2024: Entity Resolved Knowledge Graphs](https://github.com/DerwenAI/cdl2024_masterclass/blob/main/README.md) masterclass.
 
 ```mermaid
 graph TD
@@ -197,14 +195,6 @@ sequenceDiagram
     ```python
     python graphrag_demo.py
     ```
-
-## Graph Visualization based on Master Class content
-
-[View HTML Page](https://github.com/donbr/strwythura/blob/main/graphrag_demo.html)
-
-- NOTE:  you'll need to download the file locally to view it.
-
----
 
 ## Appendix: Code Overview and Purpose
 

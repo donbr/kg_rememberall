@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-GraphGeeks.org talk 2024-08-14 https://live.zoho.com/PBOB6fvr6c
-How to construct _knowledge graphs_ from unstructured data sources.
+CITATIONS and APPRECIATION:
+- Paco Nathan:  a rework of code he originally shared during GraphGeeks.org talk 2024-08-14.
+  - REPO URL:  https://github.com/DerwenAI/strwythura/blob/main/demo.py
+- GLiNER:  https://arxiv.org/abs/2311.08526
+- GLiREL:  https://arxiv.org/abs/2501.03172
 """
 
 from collections import defaultdict
@@ -51,7 +54,7 @@ EMBED_FCN: lancedb.embeddings.transformers.TransformersEmbeddingFunction = \
 #GLINER_MODEL: str = "urchade/gliner_small-v2.1"
 GLINER_MODEL: str = "urchade/gliner_large-v2"
 
-LANCEDB_URI = "data/lancedb"
+LANCEDB_URI = "../data/lancedb"
 
 NER_LABELS: typing.List[str] = [
     "PERSON",        # For military/political leaders like Churchill, General Weygand, King Leopold
@@ -1113,7 +1116,7 @@ def construct_kg (
     w2v_model.save(str(w2v_file))
 
     # serialize the resulting KG
-    with pathlib.Path("data/kg.json").open("w", encoding = "utf-8") as fp:
+    with pathlib.Path("../data/processed/graphrag_demo.json").open("w", encoding = "utf-8") as fp:
         fp.write(
             json.dumps(
                 nx.node_link_data(sem_overlay, edges="edges"),
@@ -1123,7 +1126,7 @@ def construct_kg (
         )
 
     # Path to save the GraphML file
-    graphml_path = pathlib.Path("data/kg.graphml")
+    graphml_path = pathlib.Path("../data/processed/graphrag_demo.graphml")
 
     # Serialize the NetworkX graph to GraphML format using a with statement
     with graphml_path.open("wb") as fp:  # Open in binary write mode
@@ -1131,7 +1134,7 @@ def construct_kg (
 
     gen_pyvis(
         sem_overlay,
-        "graphrag_demo.html",
+        "../data/processed/graphrag_demo.html",
         num_docs = len(url_list),
     )
 
@@ -1141,7 +1144,7 @@ def construct_kg (
 if __name__ == "__main__":
 
     url_list: typing.List[ str ] = [
-        "https://raw.githubusercontent.com/egodat/Churchill/refs/heads/master/We_shall_fight.txt",
+        "https://raw.githubusercontent.com/donbr/kg_rememberall/refs/heads/main/references/winston_churchill_we_shall_fight_speech_june_1940.txt",
     ]
 
     vect_db: lancedb.db.LanceDBConnection = lancedb.connect(LANCEDB_URI)
@@ -1158,6 +1161,6 @@ if __name__ == "__main__":
         url_list,
         chunk_table,
         sem_overlay,
-        pathlib.Path("data/entity.w2v"),
+        pathlib.Path("../models/entity.w2v"),
         debug = False,  # True
     )

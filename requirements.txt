@@ -1,3 +1,7 @@
+gensim >= 4.3
+gliner >= 0.2
+gliner_spacy >= 0.0
+glirel >= 0.1
 awscli
 black
 flake8
@@ -19,4 +23,21 @@ pyvis
 scikit-learn
 tqdm
 typer
+spacy >= 3.7
+tqdm >= 4.66
+watermark >= 2.4
+icecream >= 2.1
+pyinstrument >= 4.6
+bs4
+lancedb
+
+# spaCy language model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
+
+# GLiREL has a PR to fix this omitted dependency
+datasets >= 2.20
+
+# donbr 2025/01/06: added prefect and loguru
+prefect >= 3.1.11
+
 -e .
