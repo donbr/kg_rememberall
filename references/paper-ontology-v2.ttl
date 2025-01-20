@@ -1,0 +1,361 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix bfo: <http://purl.obolibrary.org/obo/BFO_> .
+@prefix cso: <http://cso.kmi.open.ac.uk/schema/cso#> .
+@prefix aio: <http://purl.org/ai-ontology/aio#> .
+@prefix paper: <http://example.org/paper#> .
+
+# Top-Level Alignment with BFO
+paper:Paper a owl:Class ;
+    rdfs:label "Research Paper" ;
+    rdfs:comment "A class representing a research paper." ;
+    rdfs:subClassOf schema:ScholarlyArticle, bfo:0000001 ;  # BFO: Entity
+    owl:versionInfo "1.4" .
+
+# Section Classes (Hierarchical Refinement)
+paper:Section a owl:Class ;
+    rdfs:label "Section" ;
+    rdfs:comment "A generic class representing a section of a research paper." ;
+    rdfs:subClassOf bibo:DocumentPart .
+
+paper:Introduction a owl:Class ;
+    rdfs:label "Introduction" ;
+    rdfs:comment "The introduction section of the paper, including motivation, objectives, and contributions." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Background a owl:Class ;
+    rdfs:label "Background and Related Work" ;
+    rdfs:comment "The background section of the paper, discussing prior work and theoretical frameworks." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Methodology a owl:Class ;
+    rdfs:label "Methodology" ;
+    rdfs:comment "The methodology section of the paper, detailing the approach, data collection, and experimental setup." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Results a owl:Class ;
+    rdfs:label "Results" ;
+    rdfs:comment "The results section of the paper, including findings, performance metrics, and visualizations." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Analysis a owl:Class ;
+    rdfs:label "Analysis" ;
+    rdfs:comment "The analysis section of the paper, interpreting results and discussing strengths and limitations." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Conclusion a owl:Class ;
+    rdfs:label "Conclusion" ;
+    rdfs:comment "The conclusion section of the paper, summarizing findings and suggesting future work." ;
+    rdfs:subClassOf paper:Section .
+
+paper:References a owl:Class ;
+    rdfs:label "References" ;
+    rdfs:comment "The references section of the paper, listing all cited works." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Appendices a owl:Class ;
+    rdfs:label "Appendices" ;
+    rdfs:comment "The appendices section of the paper, containing supplementary material and code/data availability." ;
+    rdfs:subClassOf paper:Section .
+
+paper:AdditionalSections a owl:Class ;
+    rdfs:label "Additional Sections" ;
+    rdfs:comment "Optional sections of the paper, such as ethical considerations and acknowledgments." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Subsection a owl:Class ;
+    rdfs:label "Subsection" ;
+    rdfs:comment "A subsection within a larger section of a research paper." ;
+    rdfs:subClassOf paper:Section .
+
+paper:Figure a owl:Class ;
+    rdfs:label "Figure" ;
+    rdfs:comment "A figure or visual element within a research paper." ;
+    rdfs:subClassOf paper:Section .
+
+# Properties with Inverse Relationships
+paper:hasSection a owl:ObjectProperty ;
+    rdfs:label "has Section" ;
+    rdfs:comment "Links a paper to one of its sections." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range paper:Section ;
+    owl:inverseOf paper:isSectionOf .
+
+paper:isSectionOf a owl:ObjectProperty ;
+    rdfs:label "is Section Of" ;
+    rdfs:comment "Links a section to the paper it belongs to." ;
+    rdfs:domain paper:Section ;
+    rdfs:range paper:Paper .
+
+# Subsection Relationships
+paper:hasSubsection a owl:ObjectProperty ;
+    rdfs:label "has Subsection" ;
+    rdfs:comment "Links a section to one of its subsections." ;
+    rdfs:domain paper:Section ;
+    rdfs:range paper:Subsection ;
+    owl:inverseOf paper:isSubsectionOf .
+
+paper:isSubsectionOf a owl:ObjectProperty ;
+    rdfs:label "is Subsection Of" ;
+    rdfs:comment "Links a subsection to its parent section." ;
+    rdfs:domain paper:Subsection ;
+    rdfs:range paper:Section .
+
+# Functional Properties with Cardinality Constraints
+paper:hasIntroduction a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:label "has Introduction" ;
+    rdfs:comment "Links a paper to its introduction section." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range paper:Introduction ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+paper:hasConclusion a owl:ObjectProperty, owl:FunctionalProperty ;
+    rdfs:label "has Conclusion" ;
+    rdfs:comment "Links a paper to its conclusion section." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range paper:Conclusion .
+
+# Metadata Properties (using Dublin Core, PROV, and Schema.org)
+dc:title a owl:DatatypeProperty ;
+    rdfs:label "has Title" ;
+    rdfs:comment "The title of the paper." ;
+    rdfs:domain dc:BibliographicResource ;
+    rdfs:range xsd:string .
+
+schema:author a owl:ObjectProperty ;
+    rdfs:label "has Author" ;
+    rdfs:comment "The authors of the paper." ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range schema:Person .
+
+schema:datePublished a owl:DatatypeProperty ;
+    rdfs:label "has Publication Date" ;
+    rdfs:comment "The publication date of the paper." ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range xsd:date .
+
+schema:abstract a owl:DatatypeProperty ;
+    rdfs:label "has Abstract" ;
+    rdfs:comment "The abstract of the paper." ;
+    rdfs:domain schema:ScholarlyArticle ;
+    rdfs:range xsd:string .
+
+dc:keywords a owl:ObjectProperty ;
+    rdfs:label "has Keywords" ;
+    rdfs:comment "Keywords associated with the paper or section, linked to a controlled vocabulary." ;
+    rdfs:domain paper:Section ;
+    rdfs:range skos:Concept .
+
+# SKOS Vocabulary for Keywords
+paper:KeywordVocabulary a skos:ConceptScheme ;
+    rdfs:label "Keyword Vocabulary" ;
+    rdfs:comment "A controlled vocabulary for keywords used in research papers." .
+
+paper:ZeroShotLearning a skos:Concept ;
+    skos:prefLabel "Zero-Shot Learning" ;
+    skos:inScheme paper:KeywordVocabulary .
+
+paper:RelationExtraction a skos:Concept ;
+    skos:prefLabel "Relation Extraction" ;
+    skos:inScheme paper:KeywordVocabulary .
+
+# Figure Metadata
+paper:hasCaption a owl:DatatypeProperty ;
+    rdfs:label "has Caption" ;
+    rdfs:comment "The caption of a figure." ;
+    rdfs:domain paper:Figure ;
+    rdfs:range xsd:string .
+
+paper:referencesSection a owl:ObjectProperty ;
+    rdfs:label "references Section" ;
+    rdfs:comment "Links a figure to the section it references." ;
+    rdfs:domain paper:Figure ;
+    rdfs:range paper:Section .
+
+# Provenance and Versioning
+prov:wasGeneratedBy a owl:ObjectProperty ;
+    rdfs:label "was Generated By" ;
+    rdfs:comment "Links the paper to the activity that generated it." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range prov:Activity .
+
+prov:wasAttributedTo a owl:ObjectProperty ;
+    rdfs:label "was Attributed To" ;
+    rdfs:comment "Links the paper to its authors or contributors." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range foaf:Person .
+
+prov:actedOnBehalfOf a owl:ObjectProperty ;
+    rdfs:label "acted On Behalf Of" ;
+    rdfs:comment "Links an author to their affiliated organization." ;
+    rdfs:domain foaf:Person ;
+    rdfs:range foaf:Organization .
+
+paper:versionInfo a owl:DatatypeProperty ;
+    rdfs:label "version Info" ;
+    rdfs:comment "The version of the ontology or paper." ;
+    rdfs:domain owl:Ontology ;
+    rdfs:range xsd:string .
+
+paper:createdOn a owl:DatatypeProperty ;
+    rdfs:label "created On" ;
+    rdfs:comment "The date the ontology or paper was created." ;
+    rdfs:domain owl:Ontology ;
+    rdfs:range xsd:date .
+
+paper:lastModifiedOn a owl:DatatypeProperty ;
+    rdfs:label "last Modified On" ;
+    rdfs:comment "The date the ontology or paper was last modified." ;
+    rdfs:domain owl:Ontology ;
+    rdfs:range xsd:date .
+
+# Domain-Specific Alignment
+paper:hasResearchTopic a owl:ObjectProperty ;
+    rdfs:label "has Research Topic" ;
+    rdfs:comment "Links the paper to a research topic from the Computer Science Ontology (CSO)." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range cso:ResearchTopic .
+
+paper:hasAITask a owl:ObjectProperty ;
+    rdfs:label "has AI Task" ;
+    rdfs:comment "Links the paper to an AI task from the Artificial Intelligence Ontology (AIO)." ;
+    rdfs:domain paper:Paper ;
+    rdfs:range aio:Task .
+
+# Example Instance
+paper:ExamplePaper a paper:Paper ;
+    dc:title "GLiREL - Generalist Model for Zero-Shot Relation Extraction" ;
+    schema:author [
+        a schema:Person ;
+        schema:name "Jack Boylan" ;
+        prov:actedOnBehalfOf <http://example.org/Quantexa>
+    ], [
+        a schema:Person ;
+        schema:name "Chris Hokamp" ;
+        prov:actedOnBehalfOf <http://example.org/Quantexa>
+    ], [
+        a schema:Person ;
+        schema:name "Demian Gholipour Ghalandari" ;
+        prov:actedOnBehalfOf <http://example.org/Quantexa>
+    ] ;
+    schema:datePublished "2024-01-01"^^xsd:date ;
+    schema:abstract "We introduce GLiREL (Generalist Lightweight model for zero-shot Relation Extraction), an efficient architecture and training paradigm for zero-shot relation classification. Inspired by recent advancements in zero-shot named entity recognition, this work presents an approach to efficiently and accurately predict zero-shot relationship labels between multiple entities in a single forward pass. Experiments using the FewRel and WikiZSL benchmarks demonstrate that our approach achieves state-of-the-art results on the zero-shot relation classification task. In addition, we contribute a protocol for synthetically-generating datasets with diverse relation labels." ;
+    prov:wasGeneratedBy [
+        a prov:Activity ;
+        prov:startedAtTime "2023-01-01"^^xsd:date ;
+        prov:endedAtTime "2024-01-01"^^xsd:date ;
+        prov:wasAssociatedWith <http://example.org/Quantexa>
+    ] ;
+    paper:versionInfo "1.0" ;
+    paper:createdOn "2023-01-01"^^xsd:date ;
+    paper:lastModifiedOn "2024-01-01"^^xsd:date ;
+    paper:hasResearchTopic cso:Zero_Shot_Learning, cso:Relation_Extraction ;
+    paper:hasAITask aio:Relation_Extraction, aio:Zero_Shot_Learning ;
+    paper:hasSection [
+        a paper:Introduction ;
+        dc:description "Introduces GLiREL, an efficient architecture for zero-shot relation classification, achieving state-of-the-art results on FewRel and WikiZSL benchmarks. Includes a protocol for synthetic data generation." ;
+        dc:keywords paper:ZeroShotLearning, paper:RelationExtraction
+    ], [
+        a paper:Background ;
+        dc:description "Discusses advancements in zero-shot NER and relation extraction, including models like GLiNER, MC-BERT, and TMC-BERT. Highlights the limitations of existing methods and the need for efficient zero-shot relation classification." ;
+        dc:keywords <http://example.org/keywords/ner>, <http://example.org/keywords/zero-shot-models>
+    ], [
+        a paper:Methodology ;
+        dc:description "GLiREL uses a pre-trained bidirectional language model to encode text and relation labels, with a scoring mechanism to compute similarity between entity pairs and relation labels. The architecture includes a refinement layer to further process representations." ;
+        dc:keywords <http://example.org/keywords/bidirectional-transformers>, <http://example.org/keywords/scoring-mechanisms> ;
+        paper:hasSubsection [
+            a paper:Subsection ;
+            dc:description "Input: Describes the structure of the input sequence, including relation labels, text tokens, and entity indices." ;
+            dc:keywords <http://example.org/keywords/input-structure>
+        ], [
+            a paper:Subsection ;
+            dc:description "Tokenization: Explains how the input sequence is tokenized, including the handling of special tokens like [REL] and [SEP]." ;
+            dc:keywords <http://example.org/keywords/tokenization>
+        ], [
+            a paper:Subsection ;
+            dc:description "Token Representation: Details how tokens are encoded and contextualized using a bidirectional transformer." ;
+            dc:keywords <http://example.org/keywords/token-representation>
+        ], [
+            a paper:Subsection ;
+            dc:description "Label and Entity Pair Representation: Explains how relation labels and entity pairs are encoded into a unified latent space." ;
+            dc:keywords <http://example.org/keywords/label-representation>, <http://example.org/keywords/entity-pair-representation>
+        ], [
+            a paper:Subsection ;
+            dc:description "Refinement Layer: Describes the refinement process using cross-attention and self-attention mechanisms to enhance representations." ;
+            dc:keywords <http://example.org/keywords/refinement-layer>, <http://example.org/keywords/cross-attention>
+        ], [
+            a paper:Subsection ;
+            dc:description "Scoring Layer: Explains how the similarity between entity pairs and relation labels is computed using a scoring mechanism." ;
+            dc:keywords <http://example.org/keywords/scoring-layer>, <http://example.org/keywords/similarity-computation>
+        ], [
+            a paper:Subsection ;
+            dc:description "Training Dataset Generation: Details the protocol for generating synthetic training data using an LLM." ;
+            dc:keywords <http://example.org/keywords/synthetic-data-generation>, <http://example.org/keywords/training-dataset>
+        ]
+    ], [
+        a paper:Results ;
+        dc:description "GLiREL achieves state-of-the-art results on both FewRel and WikiZSL benchmarks. Pretraining on synthetically annotated datasets shows significant improvement over training from scratch." ;
+        dc:keywords <http://example.org/keywords/benchmark-results>, <http://example.org/keywords/state-of-the-art>
+    ], [
+        a paper:Analysis ;
+        dc:description "GLiREL's efficiency and accuracy make it suitable for real-world applications. The model outperforms GPT-4o and other baselines, especially as the number of unseen labels increases. An ablation study shows the impact of refinement layers and random label dropping." ;
+        dc:keywords <http://example.org/keywords/efficiency>, <http://example.org/keywords/accuracy>
+    ], [
+        a paper:Conclusion ;
+        dc:description "GLiREL is a flexible and efficient approach to zero-shot relation classification, achieving state-of-the-art results. The paper also discusses limitations and future work, including extending the model to document-level relation classification." ;
+        dc:keywords <http://example.org/keywords/future-work>, <http://example.org/keywords/applications>
+    ], [
+        a paper:References ;
+        dc:description "Includes references to related works, datasets, and models like GLiNER, MC-BERT, and FewRel. Also references synthetic data generation techniques and zero-shot learning advancements." ;
+        dc:keywords <http://example.org/keywords/references>, <http://example.org/keywords/related-work> ;
+        paper:referencesDataset <http://example.org/datasets/FewRel>, <http://example.org/datasets/WikiZSL> ;
+        paper:referencesModel <http://example.org/models/GLiNER>, <http://example.org/models/MC-BERT>
+    ], [
+        a paper:Appendices ;
+        dc:description "Details on tokenization, synthetic data generation, and training setup. Includes additional experiments on coreference resolution and document-level relation classification." ;
+        dc:keywords <http://example.org/keywords/appendices>, <http://example.org/keywords/supplementary-material>
+    ], [
+        a paper:AdditionalSections ;
+        dc:description "Includes sections on limitations, coreference resolution, and document-level relation classification. Discusses the challenges of scaling to real-world use cases and the need for external knowledge bases." ;
+        dc:keywords <http://example.org/keywords/limitations>, <http://example.org/keywords/coreference-resolution> ;
+        paper:hasSubsection [
+            a paper:Subsection ;
+            dc:description "Coreference Resolution: Describes how GLiREL can be extended to resolve coreferences by introducing a special SELF relation type." ;
+            dc:keywords <http://example.org/keywords/coreference-resolution>, <http://example.org/keywords/self-relation>
+        ], [
+            a paper:Subsection ;
+            dc:description "Document-Level Relation Classification: Explains how relations can be propagated across coreference clusters to achieve document-level relation extraction." ;
+            dc:keywords <http://example.org/keywords/document-level-re>, <http://example.org/keywords/coreference-clusters>
+        ]
+    ], [
+        a paper:Figure ;
+        dc:description "Figure 1: Example inputs and outputs for GLiREL, illustrating the model's architecture and workflow." ;
+        paper:hasCaption "Example inputs and outputs for GLiREL." ;
+        paper:referencesSection paper:Methodology
+    ], [
+        a paper:Figure ;
+        dc:description "Figure 2: The proposed approach to zero-shot relation extraction, showing the encoding of relation labels and entity pairs." ;
+        paper:hasCaption "Proposed approach to zero-shot relation extraction." ;
+        paper:referencesSection paper:Methodology
+    ], [
+        a paper:Figure ;
+        dc:description "Figure 3: GLiREL input structure, including relation types, text tokens, and entity indices." ;
+        paper:hasCaption "GLiREL input structure." ;
+        paper:referencesSection paper:Methodology
+    ], [
+        a paper:Table ;
+        dc:description "Table 1: Performance comparison of models on Wiki-ZSL and FewRel datasets for various values of unseen relations." ;
+        paper:hasCaption "Performance comparison of models." ;
+        paper:referencesSection paper:Results
+    ] .
