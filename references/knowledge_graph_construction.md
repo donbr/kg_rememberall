@@ -111,15 +111,14 @@ graph LR
     class ONT,T reference;
 ```
 
-## Sequence Diagram - covering the current `strwythura` (structure) repo
+## Sequence Diagram - capturing the `kg_construction.py` functions and interactions
 
-- the diagram below is largely based on the `demo.py` functions
 - I used [Prefect](https://www.prefect.io/) to `dig in` and reverse architect the flow...
-  - [graphrag_demo.py](./graphrag_demo.py) is my simple update to [Paco's original python code](./demo.py)
+  - [graphrag_demo.py](../kg_rememberall/kg_construction.py) is my simple update to [Paco's original python code](./demo.py)
   - I stuck to using Prefect function decorators based on the existing structure, but I'm looking forward to abstracting some of the concepts out further and thinking agentically.
 - Telemetry and instrumentation can often demystify complex processes, without the headaches of wading through long print statements.  Some great insight often occurs when you can see how individual functions / components are interacting.
   - this repo features a large and distinguished cast of open source models (GLiNER, GLiREL), open source embeddings (BGE, Word2Vec) and a vector store (LanceDB) for improved entity recognition and relationship extraction.
-- For a deeper dive, [Paco's YouTube video and associated diagrams](https://senzing.com/gph-graph-rag-llm-knowledge-graphs/) help highlight real-world use cases where effective Knowledge Graph construction can provide deeper meaning and insight.
+- For a deeper dive, [Paco Nathan's YouTube video and associated diagrams](https://senzing.com/gph-graph-rag-llm-knowledge-graphs/) help highlight real-world use cases where effective Knowledge Graph construction can provide deeper meaning and insight.
 
 
 ```mermaid
@@ -176,25 +175,27 @@ sequenceDiagram
 
 1. setup local Python environment and install Python dependencies
 
-   - I used Python 3.11, but 3.10 should work as well
+  - I used Python 3.11, but 3.10 should work as well
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 2. Start the local Prefect server
 
-   - follow the [self-hosted instructions](https://docs.prefect.io/v3/get-started/quickstart#connect-to-a-prefect-api) to launch the `Prefect UI`
+  - follow the [self-hosted instructions](https://docs.prefect.io/v3/get-started/quickstart#connect-to-a-prefect-api) to launch the `Prefect UI`
 
-    ```python
-    prefect server start
-    ```
+  ```python
+  prefect server start
+  ```
 
-3. run the `graphrag_demo.py` script
+3. run the `../kg_rememberall/kg_construction.py` script
 
-    ```python
-    python graphrag_demo.py
-    ```
+  - from a new terminal session navigate to the kg_rememberall directory
+
+  ```python
+  python kg_construction.py
+  ```
 
 ## Appendix: Code Overview and Purpose
 
